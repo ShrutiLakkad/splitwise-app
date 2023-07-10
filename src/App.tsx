@@ -1,9 +1,10 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "../src/features/styles/splitWise.scss";
 
 import SplitWiseApp from "./features/spiltWise/components/group";
 import HomePage from "./features/spiltWise/components/dashboard";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
