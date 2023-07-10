@@ -1,0 +1,13 @@
+@media screen and (max-width: 320px) {
+  .welcome-container {
+    overflow: hidden;
+  }
+  .header {
+    .back-icon {
+      margin: 10px 0 81px 20px;
+    }
+    .group-heading {
+      font-size: 28px;
+    }
+  }
+}

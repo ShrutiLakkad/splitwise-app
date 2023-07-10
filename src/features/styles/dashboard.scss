@@ -1,0 +1,47 @@
+.welcome-container {
+  position: relative;
+  background-image: url("../../assets/images/greenblue.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.welcome-content {
+  margin: 0 auto;
+  background-color: rgba(0, 254, 165, 0.119);
+  backdrop-filter: blur(10px);
+  padding: 100px;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.welcome-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #ff5252;
+  border-color: #ff5252;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #e03131;
+  border-color: #e03131;
+}
